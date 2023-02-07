@@ -21,12 +21,12 @@ Within a GET request, the query strings/parameters are sent in the URL, which is
 Within a POST request, the query parameters typically are sent in the body of the request message. This method is a little more secure. We can send both ASCII and binary data and more data than a GET request. This method can be used to send data to the server.
 
 # What are ome common HTTP response status codes ?
--- 200: The request was a success. – the data requested should be in the response.
-400: Bad Request – the request was invalid due to bad syntax.
-401: Unauthorized – missing or incorrect authentication credentials.
-403: Forbidden – you are not allowed to see the data requested based on your authentication.
-404: Not Found – the URL is invalid, or the resource does not exist, or you are unauthorized to see it.
-502: Bad Gateway – the servers might have issues.
+- 200: The request was a success. – the data requested should be in the response.
+- 400: Bad Request – the request was invalid due to bad syntax.
+- 401: Unauthorized – missing or incorrect authentication credentials.
+- 403: Forbidden – you are not allowed to see the data requested based on your authentication.
+- 404: Not Found – the URL is invalid, or the resource does not exist, or you are unauthorized to see it.
+- 502: Bad Gateway – the servers might have issues.
 
 # Python Example #1: Yelp API call
 ## Step #1: Read the Documentation
