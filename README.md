@@ -20,7 +20,7 @@ The two common HTTP request methods for API calls are GET and POST:
 Within a GET request, the query strings/parameters are sent in the URL, which is easy to bookmark or save. But we can only send ASCII characters and a limited amount of data. Requests using GET should only retrieve data.
 Within a POST request, the query parameters typically are sent in the body of the request message. This method is a little more secure. We can send both ASCII and binary data and more data than a GET request. This method can be used to send data to the server.
 
-# What are ome common HTTP response status codes ?
+# What are some common HTTP response status codes ?
 - 200: The request was a success. – the data requested should be in the response.
 - 400: Bad Request – the request was invalid due to bad syntax.
 - 401: Unauthorized – missing or incorrect authentication credentials.
